@@ -7,6 +7,7 @@ input.onButtonPressed(Button.A, function () {
         . # . # .
         `)
     basic.pause(1000)
+    basic.clearScreen()
     Player_1 += 1
     show_scoreboard()
 })
@@ -29,6 +30,7 @@ input.onButtonPressed(Button.AB, function () {
         . . # . .
         `)
     basic.pause(1000)
+    basic.clearScreen()
     Ties += 1
     show_scoreboard()
 })
@@ -41,6 +43,7 @@ input.onButtonPressed(Button.B, function () {
         . # # # .
         `)
     basic.pause(1000)
+    basic.clearScreen()
     Player_2 += 1
     show_scoreboard()
 })
